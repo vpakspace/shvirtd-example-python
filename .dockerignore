@@ -1,0 +1,15 @@
+# Исключаем из контекста сборки лишнее (задача 1).
+.git
+.gitignore
+.dockerignore
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+README.md
+schema.pdf
+Dockerfile
+compose.yaml
+proxy.yaml
+deploy.sh

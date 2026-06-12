@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Бэкапы БД (задача 5*)
+backup/
+/opt/backup/
+
+# Локальные секреты (если будете выносить .env из git)
+.env.local
